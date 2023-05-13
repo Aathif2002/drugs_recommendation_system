@@ -1,0 +1,66 @@
+<div class="three">
+<div mat-dialog-title>
+    <h1>Drugs Adding Form</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Drugs name</mat-label>
+                <input matInput type="text" placeholder="Ex. Dolo 650-mg" formControlName="drugsName">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Generic Name</mat-label>
+                <input matInput placeholder="Ex. Acetaminophen" formControlName="genericName">
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Rx/OTC</mat-label>
+                <input matInput type="email" placeholder="Ex. Rx" formControlName="rx">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Date of Update</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="dateofupdate">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Depertment</mat-label>
+                <mat-select formControlName="depertment">
+                    <mat-option *ngFor="let val of depertment" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Disease</mat-label>
+                <input matInput placeholder="Ex. Fever" formControlName="disease">
+            </mat-form-field>
+            
+            <mat-form-field appearance="outline">
+                <mat-label>Pregnancy</mat-label>
+              <input matInput placeholder="Ex. Category" formControlName="pregnancy">
+            
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>CSA</mat-label>
+                <input matInput placeholder="Ex. Category" formControlName="csa">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Alchohol</mat-label>
+                <input matInput placeholder="Ex. Category" formControlName="alchohol">
+            </mat-form-field>
+        </div>
+      
+    </div>
+    <div mat-dialog-actions class="action">
+       <div class="b1"> <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button></div>
+       <div class="b2"> <button mat-raised-button color="primary" type="submit">{{data ? 'Update': 'Save'}}</button></div>
+    </div>
+</form>
+</div>

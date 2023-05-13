@@ -1,0 +1,62 @@
+.logo{
+    background-color: rgb(0, 82, 95) ;
+}
+img{
+    width: 15%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+
+.one img{
+   margin-left: 950px;
+  
+   background-color: white;
+   width: 5%;
+}
+
+.example-card{
+    box-shadow: rgb(0, 77, 87) 0px 54px 55px, rgb(0, 104, 120) 0px -12px 30px, rgb(0, 82, 95) 0px 4px 6px, rgb(0, 82, 95) 0px 12px 13px,rgb(0, 82, 95) 0px -3px 5px;
+    margin: 20px;
+    width: 490px;
+    margin-left:40px;
+    
+}
+.txt{
+    color:rgb(0, 82, 95);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+p{
+    height:fit-content;
+    background-color: rgb(0, 69, 80);
+    padding:10px;
+   
+    border-radius: 5px;
+    color: white;
+}
+.full{
+    display: flex;
+    margin-top: 30px;
+}
+.one{
+    width: 50%;
+}
+.two{
+    width: 50%;
+}
+a{
+    border: 2px solid green;
+    margin-left: 180px;
+    margin-top: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 82, 95);
+    font-style: italic;
+    
+
+}

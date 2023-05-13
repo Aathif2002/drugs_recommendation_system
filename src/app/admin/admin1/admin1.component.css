@@ -1,0 +1,284 @@
+/* .example-spacer {
+    flex: 1 1 auto;
+    margin-left: 500px;
+    margin-top: 10px;
+   
+  }
+ 
+  button{
+    margin-right: 7px;
+  }
+  
+  .main-body {
+    padding-top: 0px;
+    
+    max-width: 1200px;
+    margin-left: 30px;
+    
+  }
+  mat-form-field{
+    width: 1200px;
+   
+  }
+  
+  .action {
+    display: flex;
+    gap: 5px;
+  }
+  td{
+    text-align: center;
+  }
+.one{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+
+    
+}
+.two{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.three{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+ p{
+    border: 1px solid rgb(3, 84, 3);
+    background-color: rgb(3, 84, 3);
+    border-radius: 30px;
+    margin-top: 10px;
+    
+    padding-bottom: 1px;
+}
+span{
+    border: 1px solid rgb(221, 61, 3);
+    background-color: rgb(221, 61, 3);
+    border-radius: 30px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+
+}
+a{
+    border: 1px solid rgb(135, 97, 2);
+    background-color: rgb(135, 97, 2);
+    border-radius: 30px;
+    margin-top: 10px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+    
+    */
+    /* .example-spacer {
+        flex: 1 1 auto;
+        margin-left: 500px;
+        margin-top: 10px;
+       
+      }
+      button{
+        margin-right: 7px;
+      }
+      
+      .main-body {
+        padding-top: 0px;
+        
+        width: 1300px;
+        margin-left: 30px;
+        
+      }
+      mat-form-field{
+        width: 1200px;
+       
+      }
+      .action {
+        display: flex;
+        gap: 5px;
+      }
+      td{
+        text-align: center;
+      }
+      th{
+        margin-right: 10px;
+      }
+
+      .one{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    
+        
+    }
+    .two{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .three{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    p{
+        border: 1px solid rgb(3, 84, 3);
+        background-color: rgb(3, 84, 3);
+        border-radius: 30px;
+        margin-top: 10px;
+        
+        padding-bottom: 1px;
+    }
+    span{
+        border: 1px solid rgb(221, 61, 3);
+        background-color: rgb(221, 61, 3);
+        border-radius: 30px;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        
+    
+    }
+    a{
+        border: 1px solid rgb(135, 97, 2);
+        background-color: rgb(135, 97, 2);
+        border-radius: 30px;
+        margin-top: 10px;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    mat-table{
+        width: 1200px;
+    } */
+    .main-body{
+        margin-left: 20%;
+    }
+    mat-paginator{
+        margin-right: 35%;
+      
+    }
+    ng-container{
+        height: 70%;
+    }
+   
+    th p{
+        margin-right: 15px;
+        margin-left: 25px;
+    }
+    .example-spacer {
+        flex: 1 1 auto;
+        margin-left: 500px;
+        margin-top: 10px;
+       
+      }
+      button{
+        margin-right: 7px;
+      }
+      
+      .main-body {
+        padding-top: 0px;
+        
+        width: 1300px;
+        margin-left: 30px;
+        
+      }
+      mat-form-field{
+        width: 1200px;
+       
+      }
+      .action {
+        display: flex;
+        gap: 5px;
+      }
+      td{
+        text-align: center;
+      }
+      th{
+        margin-right: 10px;
+      }
+
+      .one{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    
+        
+    }
+    .two{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .three{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+     .two p{
+        border: 1px solid rgb(3, 84, 3);
+        background-color: rgb(3, 84, 3);
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left: 18px;
+        margin-right: 18px;
+
+        
+        padding-bottom: 1px;
+    }
+    span{
+        border: 1px solid rgb(221, 61, 3);
+        background-color: rgb(221, 61, 3);
+        border-radius: 30px;
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        
+    
+    }
+    a{
+        border: 1px solid rgb(135, 97, 2);
+        background-color: rgb(135, 97, 2);
+        border-radius: 30px;
+        margin-top: 10px;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bolder;
+    
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    .logo{
+      background-color: rgb(205, 205, 205);
+
+    }
+    .example-spacer button{
+      background-color: rgb(0, 82, 95);
+    }
+   

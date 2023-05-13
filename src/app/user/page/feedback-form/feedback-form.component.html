@@ -1,0 +1,56 @@
+<div class="full">
+    <h3>Fill your feedback</h3>
+        <div class="rform">
+            <form  [formGroup]="feedbackForm"  (submit)="saveFeedback()">
+                   <table>
+                       <tr>
+                       <th>Name</th>
+                       <td><input type="text" formControlName="name"></td>
+                       <td>
+                              <div class="one" *ngIf='feedbackForm.controls.name.hasError("required")'>
+                                      *</div>
+                           <div *ngIf='feedbackForm.controls.name.hasError("minlength")'>
+                                        </div>
+                       </td>
+                       </tr>
+                        <tr>
+                       <th>Email</th>
+                       <td><input type="text" formControlName="email"></td>
+                       <td>
+                              <div class="two" *ngIf='feedbackForm.controls.email.hasError("required")'>
+                                      *</div>
+                              <div *ngIf='feedbackForm.controls.email.hasError("pattern")'>
+                                          </div>
+                       </td>
+                       </tr>
+                       
+
+                
+                       <tr>
+                           <th>Message</th>
+                           <td><textarea rows=6 cols=50 formControlName="message">
+                               </textarea></td>
+                           <td>
+                                  <div class="three "*ngIf='feedbackForm.controls.message.hasError("required")'>
+                                          *</div>
+                                <div *ngIf='feedbackForm.controls.message.hasError("minlength")'>
+                                            </div>
+                           </td>
+                       </tr>
+                       <!-- <tr>
+                        <th>Rating</th>
+                        <td input type="text"  formControlName="Rating"><app-star></app-star></td>
+                       
+                        </tr> -->
+                       
+                       <tr><td colspan="3" style="text-align:center">
+                              <button type="submit"  class="btn btn-primary" [disabled]="!feedbackForm.valid">
+                                         Post Feedback</button>
+                          </td></tr>
+                   </table>
+              
+              
+              </form>
+          </div>
+        </div>
+

@@ -1,0 +1,20 @@
+
+<div class="full">{{Health.depertment | uppercase}} </div> 
+<div class="main">
+  <div class="fully">
+    
+    <div class="two" *ngFor="let x of Health.type">
+    <mat-card>
+    <mat-card-content>
+    <div class="txt">
+        <a>{{x.title | uppercase}}</a></div>
+        <img src="http://localhost/{{x.img}}"> <p>{{x.details }}</p>
+        <div class="five">
+          <button routerLink="/healthcare1" mat-raised-button color="warn" (click)="setfilterhealthcare(x.title)">Drugs</button>
+        </div>
+        
+     </mat-card-content>
+      </mat-card> 
+    </div>
+  </div>
+</div>

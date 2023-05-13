@@ -1,0 +1,19 @@
+.logo{
+    background-color: rgb(0, 82, 95) ;
+}
+img{
+    width: 15%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+
+.one img{
+   /* margin-left: 950px; */
+   background-color: white;
+   width: 50%;
+}
+button{
+    margin-left: 900px;
+    padding-left:10px ;
+}

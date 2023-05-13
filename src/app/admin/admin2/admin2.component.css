@@ -1,0 +1,55 @@
+.content{
+    width:800px;
+    height: 270px;
+  }
+  .content {
+    display: flex;
+    gap: 10px;
+  
+    
+  }
+  mat-form-field {
+    width: 100%;
+  }
+  button {
+    flex: 1;
+  } 
+  .action {
+    padding: 0px 25px 20px;
+    
+  }
+  h1{
+    text-align: center;
+    background-color: rgb(0, 82, 95);
+    color: white;
+    border-radius: 6px;
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  .one{
+    text-align: center;
+  }
+  .b1 button{
+    background-color: rgb(199, 1, 1);
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 190px;
+    font-size: 17px;
+    
+  }
+  .b2 button{
+    background-color: rgb(39, 124, 2);
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  mat-label{
+   color: rgb(0, 82, 95);
+   font-weight: 300;
+   
+  }

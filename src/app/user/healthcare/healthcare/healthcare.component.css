@@ -1,0 +1,36 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 50%;
+    
+}
+.sidebar{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 82, 95);
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+option{
+    font-family: 'Times New Roman', Times, serif;
+}
+select{
+    width: 200px;
+    margin-right: 100px;
+    
+}
+.three{
+    
+    width: 50%;
+}
+.fully{
+    display: flex;
+}
+.sidebar p{
+    font-style: italic;
+}

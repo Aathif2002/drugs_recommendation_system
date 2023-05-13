@@ -1,0 +1,21 @@
+.example-card{
+    box-shadow: rgb(0, 82, 95) 0px 54px 55px, rgb(0, 82, 95) 0px -12px 30px, rgb(0, 82, 95) 0px 4px 6px, rgb(0, 82, 95) 0px 12px 13px,rgb(0, 82, 95) 0px -3px 5px;
+    margin: 20px;
+    width: 490px;
+    margin-left:40px;
+    
+}
+.txt{
+    color:rgb(0, 82, 95);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+p{
+    height:fit-content;
+    background-color: rgb(0, 82, 95);;
+    padding:10px;
+   
+    border-radius: 5px;
+    color: white;
+}

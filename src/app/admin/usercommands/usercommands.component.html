@@ -1,0 +1,26 @@
+<mat-toolbar class="logo">
+    <img src="http://localhost/fp1.png">    <div class=one><img src="http://localhost/admin.jpg"></div> 
+    
+</mat-toolbar>
+<div class="full">
+    <div class="one">
+        <div class="con"><a>Customer Complaints</a></div>
+<mat-card class="example-card">
+  
+   
+    <mat-card-content class="txt">
+      <p class="par" *ngFor="let x of enqiry">
+        {{x.name |uppercase }} {{x.lname |uppercase}} said ...
+        {{x.message }}
+      </p>   
+      </mat-card-content>
+
+
+  
+</mat-card> 
+    </div>
+    <div class="two">
+        <div class="con"><a>Customer Complaints</a></div>
+<app-box1></app-box1>
+    </div>
+</div>
